@@ -54,3 +54,9 @@ Expects a SmartLog JointAnalysis CSV with 2 header rows followed by columns incl
 | DptMxLos | Depth of maximum loss |
 | MaxLoss% | Max loss % or comment label if present |
 | Source | `original` or `merged (ghost collar chain)` |
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+> This software is provided for research, educational, and informational purposes only. The authors make no warranties of any kind and shall not be held liable for any damages arising from its use. See [LICENSE](LICENSE) for the full disclaimer.

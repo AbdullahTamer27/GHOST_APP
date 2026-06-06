@@ -143,7 +143,7 @@ def open_output_folder():
 if __name__ == "__main__":
     root = tk.Tk()
     root.title("Ghost Collar Merger")
-    root.geometry("480x260")
+    root.geometry("480x280")
     root.configure(bg=BG_COLOR)
     root.resizable(False, False)
 
@@ -223,6 +223,15 @@ if __name__ == "__main__":
     btn_open.pack(pady=(5, 0))
 
 
+    license_label = tk.Label(
+        root,
+        text="MIT License © 2026 AbdullahTamer27 — see LICENSE",
+        font=(NORMAL_FONT, 7),
+        bg=BG_COLOR,
+        fg="#666666"
+    )
+    license_label.pack(side="bottom", pady=(0, 4))
+
     # Status label
     status_label = tk.Label(
         root,
@@ -231,6 +240,6 @@ if __name__ == "__main__":
         bg=BG_COLOR,
         fg=TEXT_COLOR
     )
-    status_label.pack(side="bottom", pady=10)
+    status_label.pack(side="bottom", pady=(5, 0))
 
     root.mainloop()
